@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="stylesheet" href="todoDYI.css">
+        <link rel="icon" type="image/x-icon" href="favicon.png">
+        <title> To Do It Yourself [Rainy Zone] </title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>To Do It Yourself</h1>
+        </div>
+        <div class="navbar">
+            <a href="../index.html" class="link">Home</a>
+        </div>
+
+        <div class="tdyi-container">
+            <div id="tdyi" class="tdyi-header">
+                <h2>My To Do List</h2>
+                <input type="text" id="tdyi-input" placeholder="I need to...">
+                <span onclick="newElement()" class="addButton">Add</span>
+            </div>
+            <ul id="tdyi-list">
+                <li>Draw something</li>
+                <li>Pet a cat</li>
+                <li>Go outside</li>
+                <li>Eat something tasty</li>
+            </ul>
+        </div>
+
+        <script type="text/Javascript" src="todoDYI.js"></script>
+    </body>
+</html>
